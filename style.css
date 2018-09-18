@@ -1,0 +1,109 @@
+body {
+	margin-top: 0;
+	background-image: url(img/fone_1.jpg);
+	background-size: cover;
+}
+
+table {
+	border: 2px solid #DDFDF9;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid #DDFDF9;
+	padding: 6px;
+}
+
+ol {
+	float: right;
+	border-left: 2px solid #DDFDF9;
+}
+
+#content {
+	display: block;
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	color: white;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, .7);
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+
+#content > h1 {
+	text-align: center;
+	color: white;
+}
+
+.menu {
+	margin-left: 10%;
+	margin-right: 10%;
+    background: rgba(0, 0, 0, .7);
+    position: relative;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.menu > ul {
+	padding: 0;
+	font-size: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.menu > ul > li {
+	display: inline-block;
+	width: 20%; 
+}
+
+.menu > ul > li > a {
+	display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 1.55vw;
+    text-decoration: none;
+    text-align: center;
+    line-height: 7vw;
+    transition: background .5s ease;
+}
+
+
+.menu > ul > li:hover {
+    background: rgba(3, 3, 122, 0.5);
+    color: rgb(9, 9, 122);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.textcell {
+	margin: 8px;
+	font-size: 1.5vw;
+	color: white;
+}
+
+.sign {
+	display: inline-block;
+    border: 1px solid #333;
+    padding: 7px;
+    float: right;
+    color: white;
+    margin: 10px 0 5px 5px;
+    background: rgba(255, 255, 255, 0.3);  
+}
+
+.competblock {
+	display: block;
+	border-top: 2px solid #DDFDF9;
+	color: white;
+}
+
+.imgblock {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
